@@ -24,7 +24,6 @@ app.get(“/books/:id", async (req, res) => {
   const jsonBook = JSON.stringify(book, null, 2);
   res.send(jsonBook);
 );
-rest-api-library
 
 //-----Get Book Ends----- Create new book begins -----
 
